@@ -1,4 +1,6 @@
 # Bharath's Portfolio #
+
+Visit: [Portfolio](https://bharathb-portfolio.vercel.app)
 Portfolio website built with vanilla JavaScript showcasing my data science and machine learning projects.
 
 If you have any questions you can reach me at **bharathbaddi007.8@gmail.com** or connect with me on [LinkedIn](https://www.linkedin.com/in/bharath-b-966430293).
