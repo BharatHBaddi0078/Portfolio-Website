@@ -57,6 +57,7 @@ const projects = [
             github: "BharatHBaddi0078/Chatbot-using-Google-LLM"
         },
         hasImage: false,
+        isSmall: true,
     },
     {
         id: "portfolio",
@@ -64,15 +65,7 @@ const projects = [
         links: {
             github: "BharatHBaddi0078/Portfolio-Website",
         },
-        hasImage: true,
-    },
-    {
-        id: "nammamedic",
-        techs: ["ts", "react"],
-        links: {
-            github: "BharatHBaddi0078/NammaMedic-WEB",
-        },
-        isSmall: true,
+        hasImage: false,
     },
     {
         id: "web-scraping",

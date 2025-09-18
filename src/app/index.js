@@ -4,6 +4,7 @@ import startTitleAnimation from "./helpers/startTitleAnimation";
 import localeHandler from "./helpers/localeHandler";
 import loadCssFile from "./helpers/loadCssFile";
 import replacePath from "./helpers/replacePath";
+import { initializeSkillsTabs } from "./helpers/skillsTabs.js";
 
 import "styles/styles.sass";
 
@@ -20,6 +21,13 @@ async function render() {
         ).default,
         path
     );
+
+    // Initialize skills tabs if on about page
+    if (path.name === 'about') {
+        setTimeout(() => {
+            initializeSkillsTabs();
+        }, 100);
+    }
 }
 
 replacePath()

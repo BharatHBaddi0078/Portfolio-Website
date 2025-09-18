@@ -1,18 +1,19 @@
-@import default/font
-@import default/variables
-@import default/reset
-@import default/default
+@use "default/font"
+@use "default/variables" as vars
+@use "default/reset"
+@use "default/default"
 
-@import components/header
-@import components/footer
-@import components/button
-@import components/dropdown
-@import components/mediaIcon
-@import components/path
-@import components/h2
-@import components/container
-@import components/logo
+@use "components/header"
+@use "components/footer"
+@use "components/button"
+@use "components/dropdown"
+@use "components/mediaIcon"
+@use "components/path"
+@use "components/h2"
+@use "components/container"
+@use "components/logo"
+@use "components/githubStats"
 
 :root
-    @each $key, $value in $colors
-        --#{$key}: hsl(#{$value})
+    @each $key, $value in vars.$colors
+        --#{"" + $key}: hsl(#{$value})

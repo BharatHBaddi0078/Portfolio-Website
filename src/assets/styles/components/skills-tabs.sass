@@ -1,0 +1,91 @@
+// Tabbed Skills Styles
+.skills__tabs
+    display: flex
+    flex-wrap: wrap
+    gap: 1rem
+    margin-bottom: 1rem
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1)
+    position: relative
+    overflow-x: auto
+    padding-bottom: 2px
+
+.skills__tab
+    background: none
+    border: none
+    color: $text-secondary
+    padding: 0.75rem 1.5rem
+    cursor: pointer
+    transition: all 0.3s ease
+    font-size: 0.9rem
+    font-weight: 500
+    white-space: nowrap
+    border-radius: 4px 4px 0 0
+    
+    &:hover
+        color: $accent
+        background: rgba($accent, 0.1)
+    
+    &--active
+        color: $accent
+        font-weight: 600
+
+.skills__indicator
+    position: absolute
+    bottom: 0
+    left: 0
+    height: 2px
+    background: $accent
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+    border-radius: 2px
+
+.skills__content
+    position: relative
+    min-height: 200px
+
+.skills__panel
+    display: none
+    animation: fadeIn 0.3s ease-in-out
+    
+    &--active
+        display: block
+
+.skills__grid
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr))
+    gap: 1rem
+    margin-top: 1rem
+
+@keyframes fadeIn
+    from
+        opacity: 0
+        transform: translateY(10px)
+    to
+        opacity: 1
+        transform: translateY(0)
+
+// Responsive adjustments
+@media (max-width: 768px)
+    .skills__tabs
+        gap: 0.5rem
+        
+    .skills__tab
+        padding: 0.5rem 1rem
+        font-size: 0.8rem
+        
+    .skills__grid
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
+        gap: 0.75rem
+
+@media (max-width: 480px)
+    .skills__tabs
+        flex-wrap: nowrap
+        padding-bottom: 0.5rem
+        
+    .skills__tab
+        padding: 0.5rem 0.75rem
+        font-size: 0.75rem
+        min-width: fit-content
+        
+    .skills__grid
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr))
+        gap: 0.5rem

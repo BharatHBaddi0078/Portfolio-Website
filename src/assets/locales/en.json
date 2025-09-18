@@ -6,7 +6,7 @@
         "contacts": "contacts"
     },
     "footer": {
-        "description": "Data Science student and ML engineer based in Bengaluru, India",
+        "description": "Engineer passionate about Full-Stack development based in Bengaluru, India",
         "copyright": "Copyright 2025. Made by Bharath",
         "media": "Media"
     },
@@ -47,12 +47,8 @@
             "description": "Chatbot powered by Google LLM"
         },
         "portfolio": {
-            "name": "This Portfolio",
-            "description": "My personal portfolio website"
-        },
-        "nammamedic": {
-            "name": "NammaMedic",
-            "description": "Healthcare management web application"
+            "name": "Personal Portfolio Website",
+            "description": "Modern, responsive portfolio built with vanilla JavaScript, Sass, and Webpack. Features dynamic project loading, multi-language support, and clean animations."
         },
         "web-scraping": {
             "name": "Web Scraper",
@@ -66,14 +62,13 @@
     "pages": {
         "home": {
             "hero": {
-                "title": "Bharath is a <span>data scientist</span> and <span>ML engineer</span>",
+                "title": "Bharath is a <span>Full-Stack</span> and <span>ML engineer</span>",
                 "description": "He builds intelligent systems where data meets machine learning",
-                "button": "Contact ME",
-                "status": "Open for new opportunities"
+                "button": "Contact ME"
             },
             "quote": {
-                "text": "I am Vengeance",
-                "author": "Anonymous"
+                "text": "Brick for Brick",
+                "author": "Bharath"
             },
             "projects": {
                 "title": "projects",
@@ -85,44 +80,36 @@
             "about": {
                 "title": "about",
                 "description": [
-                    "I'm a Computer Science and Data Science undergraduate at New Horizon College of Engineering in Bengaluru, India. I specialize in machine learning, data analysis, and building intelligent systems that solve real-world problems. ",
-                    "My passion lies in transforming raw data into meaningful insights and developing ML models that can make a difference. I enjoy working on projects involving NLP, computer vision, and web development. I'm always eager to learn new technologies and contribute to open-source projects."
+                    "👋 Hi, I'm Bharath - an Engineer based in Bengaluru, India, passionate about Data Science, Machine Learning, and Full-stack development.",
+                    "💻 My expertise spans across machine learning frameworks, data analysis, and modern web development technologies.",
+                    "⚡ Fun fact: I am Vengeance - bringing justice to messy datasets and buggy code!"
                 ],
                 "button": "View all"
             },
             "contacts": {
                 "title": "contacts",
-                "text": "I'm interested in data science and machine learning opportunities. However, if you have other request or question, don't hesitate to contact me",
+                "text": "I'm interested in Collaborating for any projects. However, if you have other request or question, don't hesitate to contact me",
                 "media": "Message me here",
                 "donate": "Support me here"
             }
         },
         "projects": {
             "description": "All of my projects",
-            "decent": "decent",
-            "small": "small",
+            "decent": "major",
+            "small": "other projects",
             "inProgress": "unfinished"
         },
         "about": {
             "description": "Who am i",
             "about": {
                 "description": [
-                    "I'm a Computer Science and Data Science undergraduate at New Horizon College of Engineering in Bengaluru, India. I specialize in machine learning, data analysis, and building intelligent systems that solve real-world problems. ",
-                    "My passion lies in transforming raw data into meaningful insights and developing ML models that can make a difference. I enjoy working on projects involving NLP, computer vision, and web development. ",
-                    "I'm always eager to learn new technologies and contribute to open-source projects. I have experience with various ML frameworks and enjoy tackling challenging problems in data science."
+                    "👋 Hi, I'm Bharath - an Engineer based in Bengaluru, India, passionate about Data Science, Machine Learning, and Full-stack development.",
+                    "💻 My expertise spans across machine learning frameworks, data analysis, and modern web development technologies.",
+                    "⚡ Fun fact: I am Vengeance - bringing justice to messy datasets and buggy code! When I'm not coding, you can reach me at bharathbaddi007.8@gmail.com"
                 ]
             },
             "skills": {
                 "title": "skills"
-            },
-            "facts": {
-                "title": "fun-facts",
-                "list": [
-                    "I love working with data and finding patterns", 
-                    "I enjoy contributing to open-source projects",
-                    "Python is my favorite programming language", 
-                    "I'm passionate about machine learning and AI"
-                ]
             }
         },
         "contacts": {

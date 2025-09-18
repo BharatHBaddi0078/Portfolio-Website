@@ -10,7 +10,6 @@ export default (t) => {
             </div>
             <div class="hero__illustrations">
                 <img src="/images/logo-outline.svg" alt="" class="hero__logo">
-                <div class="hero__status">${t.status}</div>
                 ${Dots({})}
             </div>
         </section>

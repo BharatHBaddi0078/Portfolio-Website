@@ -11,7 +11,7 @@ export default (t) => {
             <div class="media-header">
                 <span class="media-header__line"></span>
                 <div class="media-header__links">
-                    ${["discord", "github", "email"]
+                    ${["discord", "github", "linkedin", "email"]
                         .map((name) => MediaIcon({ name }))
                         .join("")}
                 </div>
@@ -37,14 +37,6 @@ export default (t) => {
                             `
                             )
                             .join("")}
-                    </div>
-                    <div class="dropdown">
-                        <span class="dropdown__label">en</span>
-
-                        <div class="dropdown__list">
-                            <div class="dropdown__option">ru</div>
-                            <div class="dropdown__option">ua</div>
-                        </div>
                     </div>
 
                 </div>

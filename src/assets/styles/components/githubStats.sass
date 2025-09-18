@@ -1,0 +1,51 @@
+@use "../default/variables" as vars
+
+.github-stats
+    width: 100%
+    padding: 64px 0
+
+    &__title
+        font-size: 2rem
+        color: var(--white)
+        text-align: center
+        margin-bottom: 48px
+        position: relative
+
+        &::before
+            content: '#'
+            color: var(--purple)
+            margin-right: 8px
+
+    &__content
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
+        gap: 32px
+        align-items: start
+
+        @media (max-width: vars.$tabletScreen)
+            grid-template-columns: 1fr
+            gap: 24px
+
+    &__card
+        background: rgba(40, 44, 52, 0.5)
+        border: 1px solid var(--gray)
+        border-radius: 8px
+        padding: 24px
+        text-align: center
+        transition: all 0.3s ease
+
+        &:hover
+            border-color: var(--purple)
+            transform: translateY(-4px)
+
+        h3
+            color: var(--white)
+            font-size: 1.2rem
+            margin-bottom: 16px
+            font-weight: 600
+
+        img
+            width: 100%
+            max-width: 100%
+            height: auto
+            border-radius: 4px

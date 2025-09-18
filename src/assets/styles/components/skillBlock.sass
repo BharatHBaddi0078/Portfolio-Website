@@ -1,16 +1,28 @@
 .skill-block
     border: 1px solid var(--gray)
-    display: inline-block
-    max-width: 300px
-    min-width: 200px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+    max-width: 150px
+    min-width: 120px
+    height: 80px
     flex-grow: 1
     flex-shrink: 1
     flex-basis: 0
+    padding: 16px
+    border-radius: 8px
+    transition: all 0.3s ease
+
+    &:hover
+        border-color: var(--purple)
+        transform: translateY(-2px)
 
     &__name
         font-weight: 600
-        padding: 8px
-        border-bottom: 1px solid var(--gray)
+        font-size: 14px
+        color: var(--white)
 
     &__list
         padding: 8px

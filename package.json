@@ -22,7 +22,9 @@
     "webpack-dev-server": "^5.2.2"
   },
   "scripts": {
-    "build": "webpack",
-    "serve": "webpack serve"
+    "build": "webpack --mode production",
+    "serve": "webpack serve",
+    "dev": "webpack serve --mode development",
+    "vercel-build": "webpack --mode production"
   }
 }

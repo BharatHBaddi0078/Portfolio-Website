@@ -1,3 +1,5 @@
+@use "../../default/variables" as vars
+
 .skills
     width: 100%
 
@@ -10,39 +12,16 @@
         margin-bottom: 16px
 
     &__list
-        column-gap: 16px
-        columns: 3
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr))
+        gap: 16px
+        width: 100%
 
-        @media (max-width: $tabletScreen) 
-            columns: 2
+        @media (max-width: vars.$tabletScreen) 
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+            gap: 12px
 
-        @media (max-width: $mobileScreen) 
-            columns: 1
-    
-
-    &__illustrations, &__list
-        flex: 1 1 0
-
-.illustrations
-    position: relative
-    min-width: 300px
-    min-height: 300px
-
-    &__logo
-        width: 14vmin
-        top: 30%
-        position: absolute
-        left: 70%
-
-    .dots:nth-of-type(2)
-        width: 16vmin
-        top: 70%
-        left: 10%
-        position: absolute
-
-    .dots:nth-of-type(1)
-        width: 10vmin
-        top: 20%
-        left: 40%
-        position: absolute
+        @media (max-width: vars.$mobileScreen) 
+            grid-template-columns: repeat(auto-fit, minmax(90px, 1fr))
+            gap: 8px
     

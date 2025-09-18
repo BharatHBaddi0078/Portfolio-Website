@@ -1,4 +1,6 @@
 
+@use "../default/variables" as vars
+
 $screen: 768px
 
 .media-header 
@@ -11,7 +13,7 @@ $screen: 768px
     gap: 8px
     top: 0px
 
-    @media (max-width: $desktopScreen) 
+    @media (max-width: vars.$desktopScreen) 
         display: none
     
 
@@ -51,7 +53,7 @@ $screen: 768px
         top: 70%
         right: 0
 
-    @media (max-width: $desktopScreen)
+    @media (max-width: vars.$desktopScreen)
         display: block
 
         &:checked 
@@ -151,7 +153,7 @@ $screen: 768px
         &:hover 
             color: var(--white)
 
-    @media (max-width: $desktopScreen) 
+    @media (max-width: vars.$desktopScreen) 
         padding-top: 16px
 
         &__links, .dropdown

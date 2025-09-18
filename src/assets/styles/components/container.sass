@@ -1,10 +1,12 @@
+@use "../default/variables" as vars
+
 .container
 
-    max-width: $desktopScreen
+    max-width: vars.$desktopScreen
     margin: 0 auto
     position: relative
 
-    @media (max-width: $desktopScreen)
+    @media (max-width: vars.$desktopScreen)
         padding: 16px
 
 .content

@@ -1,7 +1,88 @@
 .skills 
+    // Tabbed navigation
+    &__tabs
+        display: flex
+        flex-wrap: wrap
+        gap: 1rem
+        margin: 2rem 0 1rem 0
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1)
+        position: relative
+        overflow-x: auto
+        padding-bottom: 2px
+
+    &__tab
+        background: none
+        border: none
+        color: rgba(255, 255, 255, 0.7)
+        padding: 0.75rem 1.5rem
+        cursor: pointer
+        transition: all 0.3s ease
+        font-size: 0.9rem
+        font-weight: 500
+        white-space: nowrap
+        border-radius: 4px 4px 0 0
+        
+        &:hover
+            color: #C778DD
+            background: rgba(#C778DD, 0.1)
+        
+        &--active
+            color: #C778DD
+            font-weight: 600
+
+    &__indicator
+        position: absolute
+        bottom: 0
+        left: 0
+        height: 2px
+        background: #C778DD
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+        border-radius: 2px
+
+    // Content area
     &__content
-        margin-top: 48px
+        position: relative
+        min-height: 200px
+
+    &__panel
+        display: none
+        animation: fadeIn 0.3s ease-in-out
+        
+        &--active
+            display: block
+
+    &__grid
         display: flex
         gap: 16px
         flex-wrap: wrap
         align-items: start
+        margin-top: 1rem
+
+@keyframes fadeIn
+    from
+        opacity: 0
+        transform: translateY(10px)
+    to
+        opacity: 1
+        transform: translateY(0)
+
+// Responsive adjustments
+@media (max-width: 768px)
+    .skills
+        &__tabs
+            gap: 0.5rem
+            
+        &__tab
+            padding: 0.5rem 1rem
+            font-size: 0.8rem
+
+@media (max-width: 480px)
+    .skills
+        &__tabs
+            flex-wrap: nowrap
+            padding-bottom: 0.5rem
+            
+        &__tab
+            padding: 0.5rem 0.75rem
+            font-size: 0.75rem
+            min-width: fit-content
