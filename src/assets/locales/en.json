@@ -1,0 +1,132 @@
+{
+    "header": {
+        "home": "home",
+        "projects": "projects",
+        "about": "about-me",
+        "contacts": "contacts"
+    },
+    "footer": {
+        "description": "Data Science student and ML engineer based in Bengaluru, India",
+        "copyright": "Copyright 2025. Made by Bharath",
+        "media": "Media"
+    },
+    "skills": {
+        "language": "Languages",
+        "database": "Databases", 
+        "other": "Other",
+        "tool": "Tools",
+        "framework": "Frameworks & Libraries"
+    },
+    "projects": {
+        "darksight": {
+            "name": "DarkSight",
+            "description": "Dark web monitoring system for security analysis"
+        },
+        "money-map": {
+            "name": "Money Map",
+            "description": "Financial tracking and management application"
+        },
+        "codex-snippet-manager": {
+            "name": "CodeX Snippet Manager",
+            "description": "Code snippet management tool for developers"
+        },
+        "client-server-auto-recovery": {
+            "name": "Auto-Recovery Client-Server",
+            "description": "Resilient client-server system with automatic recovery"
+        },
+        "sms-spam-detection": {
+            "name": "SMS Spam Detection",
+            "description": "NLP-based SMS spam detection and analysis"
+        },
+        "speech-to-text": {
+            "name": "Speech Recognition",
+            "description": "Speech-to-text recognition system using ML"
+        },
+        "chatbot-llm": {
+            "name": "AI Chatbot",
+            "description": "Chatbot powered by Google LLM"
+        },
+        "portfolio": {
+            "name": "This Portfolio",
+            "description": "My personal portfolio website"
+        },
+        "nammamedic": {
+            "name": "NammaMedic",
+            "description": "Healthcare management web application"
+        },
+        "web-scraping": {
+            "name": "Web Scraper",
+            "description": "Web scraping tools and utilities"
+        },
+        "stt-tts": {
+            "name": "STT-TTS",
+            "description": "Speech-to-text and text-to-speech system"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Bharath is a <span>data scientist</span> and <span>ML engineer</span>",
+                "description": "He builds intelligent systems where data meets machine learning",
+                "button": "Contact ME",
+                "status": "Open for new opportunities"
+            },
+            "quote": {
+                "text": "I am Vengeance",
+                "author": "Anonymous"
+            },
+            "projects": {
+                "title": "projects",
+                "button": "View all"
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "about": {
+                "title": "about",
+                "description": [
+                    "I'm a Computer Science and Data Science undergraduate at New Horizon College of Engineering in Bengaluru, India. I specialize in machine learning, data analysis, and building intelligent systems that solve real-world problems. ",
+                    "My passion lies in transforming raw data into meaningful insights and developing ML models that can make a difference. I enjoy working on projects involving NLP, computer vision, and web development. I'm always eager to learn new technologies and contribute to open-source projects."
+                ],
+                "button": "View all"
+            },
+            "contacts": {
+                "title": "contacts",
+                "text": "I'm interested in data science and machine learning opportunities. However, if you have other request or question, don't hesitate to contact me",
+                "media": "Message me here",
+                "donate": "Support me here"
+            }
+        },
+        "projects": {
+            "description": "All of my projects",
+            "decent": "decent",
+            "small": "small",
+            "inProgress": "unfinished"
+        },
+        "about": {
+            "description": "Who am i",
+            "about": {
+                "description": [
+                    "I'm a Computer Science and Data Science undergraduate at New Horizon College of Engineering in Bengaluru, India. I specialize in machine learning, data analysis, and building intelligent systems that solve real-world problems. ",
+                    "My passion lies in transforming raw data into meaningful insights and developing ML models that can make a difference. I enjoy working on projects involving NLP, computer vision, and web development. ",
+                    "I'm always eager to learn new technologies and contribute to open-source projects. I have experience with various ML frameworks and enjoy tackling challenging problems in data science."
+                ]
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "facts": {
+                "title": "fun-facts",
+                "list": [
+                    "I love working with data and finding patterns", 
+                    "I enjoy contributing to open-source projects",
+                    "Python is my favorite programming language", 
+                    "I'm passionate about machine learning and AI"
+                ]
+            }
+        },
+        "contacts": {
+            "description": "How to contact me"
+        }
+    }
+}
