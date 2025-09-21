@@ -1,6 +1,6 @@
 # Bharath's Portfolio #
 
-Visit: [Portfolio](https://bharathb-portfolio.vercel.app)
+Visit: [Portfolio](https://bharath-badderu.vercel.app)
 
 Portfolio website built with vanilla JavaScript.
 
