@@ -101,7 +101,7 @@
             "inProgress": "unfinished"
         },
         "about": {
-            "description": "Who am i",
+            "description": "Who am i? - I could be anybody..",
             "about": {
                 "description": [
                     "👋 Hi, I'm Bharath — Undergrad at New Horizon College of Engineering and Intern at Temenos.",
@@ -114,7 +114,7 @@
                         "name": "New Horizon College of Engineering (BE)",
                         "years": "2022–2026",
                         "link": "https://newhorizoncollegeofengineering.in/",
-                        "image": "https://newhorizoncollegeofengineering.in/wp-content/uploads/2023/05/NHCE-Logo.png"
+                        "image": "assets/images/meta/nhce-logo.svg"
                     },
                     {
                         "name": "Satyam PU College",
@@ -134,7 +134,7 @@
                         "company": "Temenos",
                         "years": "Oct 2025–Present",
                         "link": "https://www.temenos.com/",
-                        "image": "https://www.temenos.com/wp-content/uploads/2020/07/Temenos_Logo_Blue_Retina.png"
+                        "image": "assets/images/meta/temenos-logo.svg"
                     }
                 ]
             },
