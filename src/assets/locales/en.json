@@ -129,7 +129,13 @@
                 ],
                 "experienceTitle": "Experience",
                 "experience": [
-                    "Associate Product Engineer Intern at Temenos — Oct 2025–Present"
+                    {
+                        "role": "Associate Product Engineer Intern",
+                        "company": "Temenos",
+                        "years": "Oct 2025–Present",
+                        "link": "https://www.temenos.com/",
+                        "image": "https://www.temenos.com/wp-content/uploads/2020/07/Temenos_Logo_Blue_Retina.png"
+                    }
                 ]
             },
             "skills": {
