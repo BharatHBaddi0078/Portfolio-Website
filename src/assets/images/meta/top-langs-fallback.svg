@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-label="Top Languages unavailable">
+  <rect width="640" height="320" fill="#0d1117"/>
+  <rect x="16" y="16" width="608" height="288" rx="12" ry="12" fill="none" stroke="#c9d1d9" stroke-width="2"/>
+  <text x="50%" y="40%" fill="#c9d1d9" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle">Top Languages</text>
+  <text x="50%" y="55%" fill="#8b949e" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle">Temporarily unavailable</text>
+  <text x="50%" y="68%" fill="#58a6ff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">github-readme-stats rate limited or offline</text>
+</svg>
