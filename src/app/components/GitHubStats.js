@@ -8,9 +8,9 @@ export default (_, t) => {
                 <div class="github-stats__content">
                     <div class="github-stats__card">
                         <h3>Profile Statistics</h3>
-                        <img src="https://github-readme-stats.vercel.app/api?username=BharatHBaddi0078&show_icons=true&count_private=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true&cache_seconds=86400" 
-                             alt="GitHub Stats" 
-                             onerror="this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=BharatHBaddi0078&show_icons=true&count_private=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true'" />
+                            <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=BharatHBaddi0078&show_icons=true&count_private=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true" 
+                                alt="GitHub Stats" 
+                                onerror="this.outerHTML='<p style=\'color:#8B949E;text-align:center;padding:20px;\'>Profile statistics temporarily unavailable</p>'" />
                     </div>
                     <div class="github-stats__card">
                         <h3>Contribution Streak</h3>
@@ -18,9 +18,9 @@ export default (_, t) => {
                     </div>
                     <div class="github-stats__card">
                         <h3>Top Languages</h3>
-                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=8&cache_seconds=86400" 
-                             alt="Top Languages" 
-                             onerror="this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=donut&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=6'" />
+                            <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=6" 
+                                alt="Top Languages" 
+                                onerror="this.outerHTML='<p style=\'color:#8B949E;text-align:center;padding:20px;\'>Top languages temporarily unavailable</p>'" />
                     </div>
                 </div>
             </div>
