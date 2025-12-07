@@ -114,8 +114,8 @@ const gap = 16;
                     <div class="github-stats__card">
                         <h3>Top Languages</h3>
                                     <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=6" 
-                                        alt="Top Languages: JavaScript, Python, TypeScript" 
-                                        onerror="this.src='assets/images/meta/top-langs-fallback.svg'" />
+                                        alt="Top Languages" 
+                                        onerror="this.onerror=null; const p=this.parentElement; this.remove(); const msg=document.createElement('div'); msg.className='github-stats__error'; msg.textContent='Top Languages temporarily unavailable.'; p.appendChild(msg);" />
                     </div>
                 </div>
             </div>
