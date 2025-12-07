@@ -1,7 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-label="Top Languages unavailable">
   <rect width="640" height="320" fill="#0d1117"/>
   <rect x="16" y="16" width="608" height="288" rx="12" ry="12" fill="none" stroke="#c9d1d9" stroke-width="2"/>
-  <text x="50%" y="40%" fill="#c9d1d9" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle">Top Languages</text>
-  <text x="50%" y="55%" fill="#8b949e" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle">Temporarily unavailable</text>
-  <text x="50%" y="68%" fill="#58a6ff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">github-readme-stats rate limited or offline</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">Top Languages (Fallback)</title>
+  <desc id="desc">Static fallback showing JavaScript, Python, and TypeScript</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="495" height="195" rx="10" fill="url(#bg)" stroke="#30363d"/>
+  <g font-family="-apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif">
+    <text x="24" y="40" fill="#c9d1d9" font-size="20" font-weight="600">Top Languages</text>
+    <!-- Bars -->
+    <g transform="translate(24,64)">
+      <!-- JavaScript -->
+      <rect x="0" y="0" width="360" height="18" rx="4" fill="#f1e05a"/>
+      <text x="8" y="14" font-size="12" fill="#0d1117" font-weight="600">JavaScript</text>
+      <text x="370" y="14" font-size="12" fill="#c9d1d9" text-anchor="start">48%</text>
+
+      <!-- Python -->
+      <rect x="0" y="32" width="280" height="18" rx="4" fill="#3572A5"/>
+      <text x="8" y="46" font-size="12" fill="#ffffff" font-weight="600">Python</text>
+      <text x="290" y="46" font-size="12" fill="#c9d1d9" text-anchor="start">37%</text>
+
+      <!-- TypeScript -->
+      <rect x="0" y="64" width="180" height="18" rx="4" fill="#2b7489"/>
+      <text x="8" y="78" font-size="12" fill="#ffffff" font-weight="600">TypeScript</text>
+      <text x="190" y="78" font-size="12" fill="#c9d1d9" text-anchor="start">15%</text>
+    </g>
+
+    <!-- Legend -->
+    <g transform="translate(24,140)" font-size="12">
+      <rect x="0" y="-10" width="16" height="16" rx="3" fill="#f1e05a"/>
+      <text x="24" y="2" fill="#c9d1d9">JavaScript</text>
+
+      <rect x="120" y="-10" width="16" height="16" rx="3" fill="#3572A5"/>
+      <text x="144" y="2" fill="#c9d1d9">Python</text>
+
+      <rect x="220" y="-10" width="16" height="16" rx="3" fill="#2b7489"/>
+      <text x="244" y="2" fill="#c9d1d9">TypeScript</text>
+    </g>
+  </g>
+</svg>
 </svg>

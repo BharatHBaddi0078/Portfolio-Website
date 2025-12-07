@@ -18,9 +18,9 @@ export default (_, t) => {
                     </div>
                     <div class="github-stats__card">
                         <h3>Top Languages</h3>
-                                <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=6" 
-                                    alt="Top Languages" 
-                                    onerror="this.src='assets/images/meta/top-langs-fallback.svg'" />
+                                    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=6" 
+                                        alt="Top Languages: JavaScript, Python, TypeScript" 
+                                        onerror="this.src='assets/images/meta/top-langs-fallback.svg'" />
                     </div>
                 </div>
             </div>
