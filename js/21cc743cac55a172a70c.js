@@ -38,11 +38,19 @@ var Path = __webpack_require__(778);
                     <div class="about__section">
                         <div class="about__chip">${t.educationTitle || "Education"}</div>
                         <div class="skill-block__list">
-                            ${t.education.map(item => /*html*/`
+                            ${t.education.map(item => {
+                                const isObj = typeof item === 'object';
+                                const name = isObj ? item.name : item;
+                                const years = isObj && item.years ? ` <span class="skill-block__years">— ${item.years}</span>` : "";
+                                const linkStart = isObj && item.link ? `<a href="${item.link}" target="_blank" rel="noopener">` : "";
+                                const linkEnd = isObj && item.link ? `</a>` : "";
+                                const img = isObj && item.image ? `<img class="skill-block__logo" src="${item.image}" alt="${item.name} logo" onerror="this.style.display='none'"/>` : "";
+                                return /*html*/`
                                 <div class="skill-block">
-                                    <span class="skill-block__name">${item}</span>
-                                </div>
-                            `).join("")}
+                                    ${img}
+                                    ${linkStart}<span class="skill-block__name">${name}${years}</span>${linkEnd}
+                                </div>`
+                            }).join("")}
                         </div>
                     </div>
                 ` : ""}
