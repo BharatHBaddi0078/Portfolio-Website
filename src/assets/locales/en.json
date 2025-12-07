@@ -110,9 +110,24 @@
                 ],
                 "educationTitle": "Education",
                 "education": [
-                    "New Horizon College of Engineering (BE) — 2022–2026",
-                    "Satyam PU College — 2022",
-                    "Satyam International School (CBSE) — 2020"
+                    {
+                        "name": "New Horizon College of Engineering (BE)",
+                        "years": "2022–2026",
+                        "link": "https://newhorizoncollegeofengineering.in/",
+                        "image": "https://newhorizoncollegeofengineering.in/wp-content/uploads/2023/05/NHCE-Logo.png"
+                    },
+                    {
+                        "name": "Satyam PU College",
+                        "years": "2022",
+                        "link": "https://satyampucollege.in/",
+                        "image": "https://satyampucollege.in/wp-content/uploads/2023/08/cropped-satyam-pu-college-logo.png"
+                    },
+                    {
+                        "name": "Satyam International School (CBSE)",
+                        "years": "2020",
+                        "link": "https://satyaminternationalschool.in/",
+                        "image": "https://satyaminternationalschool.in/wp-content/uploads/2021/03/logo.png"
+                    }
                 ],
                 "experienceTitle": "Experience",
                 "experience": [
