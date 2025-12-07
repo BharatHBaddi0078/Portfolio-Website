@@ -63,7 +63,7 @@
         "home": {
             "hero": {
                 "title": "Bharath is a <span>Full-Stack</span> and <span>ML engineer</span>",
-                "description": "He builds intelligent systems where data meets machine learning",
+                "description": "He knows Nothing",
                 "button": "Contact ME"
             },
             "quote": {
@@ -80,9 +80,10 @@
             "about": {
                 "title": "about",
                 "description": [
-                    "👋 Hi, I'm Bharath - an Engineer based in Bengaluru, India, passionate about Data Science, Machine Learning, and Full-stack development.",
-                    "💻 My expertise spans across machine learning frameworks, data analysis, and modern web development technologies.",
+                    "👋 Hi, I'm Bharath — Undergrad at New Horizon College of Engineering and Intern at Temenos.",
+                   "💻 My expertise spans across machine learning frameworks, data analysis, and modern web development technologies.",
                     "⚡ Fun fact: I am Vengeance - bringing justice to messy datasets and buggy code!"
+                
                 ],
                 "button": "View all"
             },
@@ -103,9 +104,19 @@
             "description": "Who am i",
             "about": {
                 "description": [
-                    "👋 Hi, I'm Bharath - an Engineer based in Bengaluru, India, passionate about Data Science, Machine Learning, and Full-stack development.",
+                    "👋 Hi, I'm Bharath — Undergrad at New Horizon College of Engineering and Intern at Temenos.",
                     "💻 My expertise spans across machine learning frameworks, data analysis, and modern web development technologies.",
-                    "⚡ Fun fact: I am Vengeance - bringing justice to messy datasets and buggy code! When I'm not coding, you can reach me at bharathbaddi007.8@gmail.com"
+                    "⚡ Fun fact: I am Vengeance."
+                ],
+                "educationTitle": "Education",
+                "education": [
+                    "New Horizon College of Engineering (BE) — 2022–2026",
+                    "Satyam PU College — 2022",
+                    "Satyam International School (CBSE) — 2020"
+                ],
+                "experienceTitle": "Experience",
+                "experience": [
+                    "Associate Product Engineer Intern at Temenos — Oct 2025–Present"
                 ]
             },
             "skills": {

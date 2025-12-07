@@ -14,6 +14,34 @@
     &__description
         margin-bottom: 16px
 
+    &__section
+        margin-top: 24px
+        text-align: left
+
+    &__chip
+        display: inline-block
+        padding: 10px 16px
+        background: rgba(255, 255, 255, 0.06)
+        border: 1px solid var(--primary)
+        color: var(--primary)
+        border-radius: 16px
+        font-weight: 600
+        margin: 0 0 12px 12px
+        box-shadow: 0 2px 0 rgba(255,255,255,0.08) inset
+
+    // Make cards stack vertically and stretch in About sections
+    .skill-block__list
+        display: flex
+        flex-direction: column
+        gap: 12px
+
+    .skill-block
+        width: 100%
+        max-width: none
+        min-width: 300px
+        height: auto
+        text-align: left
+
     &__illustrations
         flex: 1 1 0
         min-width: 300px
