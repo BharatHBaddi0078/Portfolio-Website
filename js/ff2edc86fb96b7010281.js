@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkbharath_portfolio"] = self["webpackChunkbharath_portfolio"] || []).push([[365],{
+(self["webpackChunkbharath_portfolio"] = self["webpackChunkbharath_portfolio"] || []).push([[543],{
 
-/***/ 365:
+/***/ 543:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -65,33 +65,6 @@ const gap = 16;
         </figure>
     `
 });
-;// ./src/app/components/GitHubStreak.js
-/* harmony default export */ const GitHubStreak = ((username = "BharatHBaddi0078") => {
-    const primary = `https://streak-stats.demolab.com/?user=${username}&theme=dark&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&hide_border=true`;
-    const fallback = `https://streak-stats.demolab.com/?user=${username}&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D`;
-
-    const handler = `
-        function streakFallback(img){
-            if(!img.dataset.fallback){
-                img.dataset.fallback='used';
-                img.src='${fallback}';
-            } else {
-                img.outerHTML = '<p style="color:#8B949E;text-align:center;padding:20px;">Streak stats temporarily unavailable</p>';
-            }
-        }
-    `;
-
-    return /*html*/ `
-        <div class="github-streak">
-            <img src="${primary}" 
-                 alt="GitHub Contribution Streak" 
-                 onerror="streakFallback(this)"
-                 onload="this.style.opacity='1'"
-                 style="opacity:0; transition: opacity 0.5s ease; max-width: 100%; height: auto;" />
-            <script>${handler}</script>
-        </div>
-    `;
-});
 ;// ./src/app/components/GitHubStats.js
 
 
@@ -99,24 +72,8 @@ const gap = 16;
     return /*html*/ `
         <section class="github-stats">
             <div class="container">
-                <h2 class="github-stats__title">GitHub Stats</h2>
+                <h2 class="github-stats__title">GitHub Summary</h2>
                 <div class="github-stats__content">
-                    <div class="github-stats__card">
-                        <h3>Profile Statistics</h3>
-                            <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=BharatHBaddi0078&show_icons=true&count_private=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true" 
-                                alt="GitHub Stats" 
-                                onerror="this.outerHTML='<p style=\'color:#8B949E;text-align:center;padding:20px;\'>Profile statistics temporarily unavailable</p>'" />
-                    </div>
-                    <div class="github-stats__card">
-                        <h3>Contribution Streak</h3>
-                        ${GitHubStreak("BharatHBaddi0078")}
-                    </div>
-                    <div class="github-stats__card">
-                        <h3>Top Languages</h3>
-                                    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BharatHBaddi0078&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true&langs_count=6" 
-                                        alt="Top Languages" 
-                                        onerror="this.onerror=null; const p=this.parentElement; this.remove(); const msg=document.createElement('div'); msg.className='github-stats__error'; msg.textContent='Top Languages temporarily unavailable.'; p.appendChild(msg);" />
-                    </div>
                     <div class="github-stats__card">
                         <h3>Summary Cards</h3>
                         <div class="github-stats__grid">

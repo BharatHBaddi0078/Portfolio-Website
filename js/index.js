@@ -257,12 +257,12 @@ var map = {
 		960
 	],
 	"./Home": [
-		365,
-		365
+		543,
+		543
 	],
 	"./Home.js": [
-		365,
-		365
+		543,
+		543
 	],
 	"./Layout": [
 		669
@@ -428,7 +428,7 @@ const media_media = {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"68":"f8b230c3532409b25529","365":"ef3fb48edff20d0fb984","573":"92d030a2a1050b82d723","611":"4e2778fb83bbd3252477","960":"900b8000f7db5e72d5de"}[chunkId] + ".js";
+/******/ 			return "js/" + {"68":"f8b230c3532409b25529","543":"ff2edc86fb96b7010281","573":"92d030a2a1050b82d723","611":"4e2778fb83bbd3252477","960":"900b8000f7db5e72d5de"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -438,7 +438,7 @@ const media_media = {
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames not based on template
 /******/ 			if (chunkId === 611) return "css/611.css";
-/******/ 			if (chunkId === 365) return "css/365.css";
+/******/ 			if (chunkId === 543) return "css/543.css";
 /******/ 			if (chunkId === 68) return "css/68.css";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
@@ -608,7 +608,7 @@ const media_media = {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"68":1,"365":1,"611":1};
+/******/ 			var cssChunks = {"68":1,"543":1,"611":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
