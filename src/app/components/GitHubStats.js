@@ -22,6 +22,26 @@ export default (_, t) => {
                                         alt="Top Languages" 
                                         onerror="this.onerror=null; const p=this.parentElement; this.remove(); const msg=document.createElement('div'); msg.className='github-stats__error'; msg.textContent='Top Languages temporarily unavailable.'; p.appendChild(msg);" />
                     </div>
+                    <div class="github-stats__card">
+                        <h3>Summary Cards</h3>
+                        <div class="github-stats__grid">
+                            <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener" aria-label="Profile Details card source">
+                                <img src="https://raw.githubusercontent.com/BharatHBaddi0078/BharatHBaddi0078/master/profile-summary-card-output/nord_dark/0-profile-details.svg" alt="Profile Details summary card" />
+                            </a>
+                            <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener" aria-label="Repos Per Language card source">
+                                <img src="https://raw.githubusercontent.com/BharatHBaddi0078/BharatHBaddi0078/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="Repos Per Language summary card" />
+                            </a>
+                            <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener" aria-label="Most Commit Language card source">
+                                <img src="https://raw.githubusercontent.com/BharatHBaddi0078/BharatHBaddi0078/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Most Commit Language summary card" />
+                            </a>
+                            <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener" aria-label="Stats card source">
+                                <img src="https://raw.githubusercontent.com/BharatHBaddi0078/BharatHBaddi0078/master/profile-summary-card-output/nord_dark/3-stats.svg" alt="Stats summary card" />
+                            </a>
+                            <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener" aria-label="Productive Time card source">
+                                <img src="https://raw.githubusercontent.com/BharatHBaddi0078/BharatHBaddi0078/master/profile-summary-card-output/nord_dark/4-productive-time.svg" alt="Productive Time summary card" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
