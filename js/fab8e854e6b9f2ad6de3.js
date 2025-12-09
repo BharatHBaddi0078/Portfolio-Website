@@ -72,7 +72,7 @@ const gap = 16;
     return /*html*/ `
         <section class="github-stats">
             <div class="container">
-                <h2 class="github-stats__title">GitHub Summary</h2>
+                <h2 class="h2">GitHub Summary</h2>
                 <div class="github-stats__content">
                     <div class="github-stats__card">
                         <h3>Summary Cards</h3>
