@@ -1,8 +1,8 @@
 "use strict";
 (self["webpackChunkbharath_portfolio"] = self["webpackChunkbharath_portfolio"] || []).push([[543],{
 
-/***/ 543:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 543
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
@@ -36,6 +36,7 @@ const gap = 16;
         </svg>
     `;
 });
+__webpack_require__.dn(Dots);
 
 ;// ./src/app/blocks/home/Hero.js
 
@@ -55,6 +56,7 @@ const gap = 16;
         </section>
     `;
 });
+__webpack_require__.dn(Hero);
 
 ;// ./src/app/blocks/home/Quote.js
 /* harmony default export */ const Quote = ((t) => {
@@ -65,6 +67,7 @@ const gap = 16;
         </figure>
     `
 });
+__webpack_require__.dn(Quote);
 ;// ./src/app/components/GitHubStats.js
 
 
@@ -99,6 +102,7 @@ const gap = 16;
         </section>
     `;
 });
+__webpack_require__.dn(GitHubStats);
 // EXTERNAL MODULE: ./src/app/consts/media.js + 1 modules
 var media = __webpack_require__(934);
 ;// ./src/app/blocks/home/Contacts.js
@@ -143,6 +147,7 @@ const contacts = [
         </section>
     `;
 });
+__webpack_require__.dn(Contacts);
 
 ;// ./src/app/views/Home.js
 
@@ -161,8 +166,9 @@ const contacts = [
         ${Contacts(t.contacts)}
     `;
 });
+__webpack_require__.dn(Home);
 
 
-/***/ })
+/***/ }
 
 }]);

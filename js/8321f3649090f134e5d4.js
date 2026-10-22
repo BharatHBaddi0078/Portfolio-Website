@@ -1,8 +1,97 @@
 "use strict";
 (self["webpackChunkbharath_portfolio"] = self["webpackChunkbharath_portfolio"] || []).push([[611],{
 
-/***/ 611:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 778
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ description }) => {
+    return /*html*/`
+        <div class="path">
+            <h1 class="h1 path__name">${window.location.pathname.slice(1)}</h1>
+            <p class="path__description">${description}</p>
+        </div>
+    `
+});
+__webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, [
+/* harmony export */   "A", 0, __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ ]);
+
+
+/***/ },
+
+/***/ 928
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+    ts: "TypeScript",
+    js: "JavaScript",
+    python: "Python",
+    c: "C",
+    cpp: "C++",
+    sql: "SQL",
+    sqlite: "SQLite",
+    postgresql: "PostgreSQL",
+    mysql: "MySQL",
+    'sql-server': "SQL Server",
+    mongo: "MongoDB",
+    postgreSql: "PostgreSQL",
+    html: "HTML",
+    css: "CSS",
+    streamlit: "Streamlit",
+    jupyter: "Jupyter Notebook",
+    sass: "SASS",
+    scss: "SCSS",
+    less: "Less",
+    stylus: "Stylus",
+    ejs: "EJS",
+    jinja: "Jinja2",
+    node: "Node.js",
+    npm: "NPM",
+    bash: "Bash",
+    vscode: "VSCode",
+    nvim: "NeoVim",
+    figma: "Figma",
+    git: "Git",
+    github: "GitHub",
+    tableau: "Tableau",
+    xfce: "XFCE",
+    react: "React",
+    tensorflow: "TensorFlow",
+    pytorch: "PyTorch",
+    "scikit-learn": "Scikit-Learn",
+    pandas: "Pandas",
+    numpy: "NumPy",
+    matplotlib: "Matplotlib",
+    seaborn: "Seaborn",
+    plotly: "Plotly",
+    huggingface: "Hugging Face",
+    nltk: "NLTK",
+    discordJs: "Discord.js",
+    flask: "Flask",
+    quart: "Quart",
+    express: "Express",
+    rtk: "RTK",
+    zod: "Zod",
+    webpack: "WebPack",
+    pug: "Pug",
+    gulp: "Gulp",
+    next: "Next.js",
+    nextjs: "Next.js",
+    deno: "Deno",
+    pixijs: "PixiJS",
+    preact: "Preact",
+    "shadcn-ui": "shadcn/ui",
+});
+/* harmony export */ __webpack_require__.d(__webpack_exports__, [
+/* harmony export */   "A", 0, __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ ]);
+
+
+/***/ },
+
+/***/ 611
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
@@ -69,6 +158,7 @@ var Path = __webpack_require__(778);
         </section>
     `
 });
+__webpack_require__.dn(About);
 // EXTERNAL MODULE: ./src/app/consts/techs.js
 var techs = __webpack_require__(928);
 ;// ./src/app/components/SkillBlock.js
@@ -83,6 +173,7 @@ var techs = __webpack_require__(928);
         </div>
     `;
 });
+__webpack_require__.dn(SkillBlock);
 
 ;// ./src/app/consts/skills.js
 /* harmony default export */ const skills = ({
@@ -176,6 +267,7 @@ var techs = __webpack_require__(928);
         </section>
     `
 });
+__webpack_require__.dn(Skills);
 
 ;// ./src/app/views/About.js
 
@@ -191,94 +283,9 @@ var techs = __webpack_require__(928);
         ${Skills(t.skills, locale.skills)}
     `;
 });
+__webpack_require__.dn(views_About);
 
 
-/***/ }),
-
-/***/ 778:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ description }) => {
-    return /*html*/`
-        <div class="path">
-            <h1 class="h1 path__name">${window.location.pathname.slice(1)}</h1>
-            <p class="path__description">${description}</p>
-        </div>
-    `
-});
-
-/***/ }),
-
-/***/ 928:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    ts: "TypeScript",
-    js: "JavaScript",
-    python: "Python",
-    c: "C",
-    cpp: "C++",
-    sql: "SQL",
-    sqlite: "SQLite",
-    postgresql: "PostgreSQL",
-    mysql: "MySQL",
-    'sql-server': "SQL Server",
-    mongo: "MongoDB",
-    postgreSql: "PostgreSQL",
-    html: "HTML",
-    css: "CSS",
-    streamlit: "Streamlit",
-    jupyter: "Jupyter Notebook",
-    sass: "SASS",
-    scss: "SCSS",
-    less: "Less",
-    stylus: "Stylus",
-    ejs: "EJS",
-    jinja: "Jinja2",
-    node: "Node.js",
-    npm: "NPM",
-    bash: "Bash",
-    vscode: "VSCode",
-    nvim: "NeoVim",
-    figma: "Figma",
-    git: "Git",
-    github: "GitHub",
-    tableau: "Tableau",
-    xfce: "XFCE",
-    react: "React",
-    tensorflow: "TensorFlow",
-    pytorch: "PyTorch",
-    "scikit-learn": "Scikit-Learn",
-    pandas: "Pandas",
-    numpy: "NumPy",
-    matplotlib: "Matplotlib",
-    seaborn: "Seaborn",
-    plotly: "Plotly",
-    huggingface: "Hugging Face",
-    nltk: "NLTK",
-    discordJs: "Discord.js",
-    flask: "Flask",
-    quart: "Quart",
-    express: "Express",
-    rtk: "RTK",
-    zod: "Zod",
-    webpack: "WebPack",
-    pug: "Pug",
-    gulp: "Gulp",
-    next: "Next.js",
-    nextjs: "Next.js",
-    deno: "Deno",
-    pixijs: "PixiJS",
-    preact: "Preact",
-    "shadcn-ui": "shadcn/ui",
-});
-
-/***/ })
+/***/ }
 
 }]);
