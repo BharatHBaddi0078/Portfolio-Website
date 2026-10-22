@@ -8,7 +8,6 @@ export default {
     sqlite: "SQLite",
     postgresql: "PostgreSQL",
     mysql: "MySQL",
-    'sql-server': "SQL Server",
     mongo: "MongoDB",
     postgreSql: "PostgreSQL",
     html: "HTML",

@@ -5,6 +5,7 @@ import localeHandler from "./helpers/localeHandler";
 import loadCssFile from "./helpers/loadCssFile";
 import replacePath from "./helpers/replacePath";
 import { initializeSkillsTabs } from "./helpers/skillsTabs.js";
+import { initializeGitHubStars } from "./helpers/githubStars.js";
 
 import "styles/styles.sass";
 
@@ -28,6 +29,8 @@ async function render() {
             initializeSkillsTabs();
         }, 100);
     }
+
+    initializeGitHubStars();
 }
 
 replacePath()

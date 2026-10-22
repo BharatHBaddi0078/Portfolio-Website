@@ -6,9 +6,10 @@
         "contacts": "contacts"
     },
     "footer": {
-        "description": "Engineer passionate about Full-Stack development based in Bengaluru, India",
-        "copyright": "Copyright 2025. Made by Bharath",
-        "media": "Media"
+        "description": "DEV based in Bengaluru, India",
+        "copyright": "2025. Made by Bharath",
+        "media": "Media",
+        "githubStar": "Give a star on GitHub"
     },
     "skills": {
         "language": "Languages",
@@ -47,7 +48,7 @@
             "description": "Chatbot powered by Google LLM"
         },
         "portfolio": {
-            "name": "Personal Portfolio Website",
+            "name": "Portfolio Website",
             "description": "Modern, responsive portfolio built with vanilla JavaScript, Sass, and Webpack. Features dynamic project loading, multi-language support, and clean animations."
         },
         "web-scraping": {
@@ -104,7 +105,7 @@
             "description": "Who am i? - I could be anybody..",
             "about": {
                 "description": [
-                    "👋 Hi, I'm Bharath — Undergrad at New Horizon College of Engineering and Intern at Temenos.",
+                    "👋 Hi, I'm Bharath — Associate Product Engineer at Temenos.",
                     "💻 My expertise spans across machine learning frameworks, data analysis, and modern web development technologies.",
                     "⚡ Fun fact: I am Vengeance."
                 ],
@@ -117,7 +118,7 @@
                         "image": "assets/images/meta/nhce-logo.svg"
                     },
                     {
-                        "name": "Satyam PU College",
+                        "name": "Satyam Pre-University College",
                         "years": "2022",
                         "image": "https://satyampucollege.in/wp-content/uploads/2023/08/cropped-satyam-pu-college-logo.png"
                     },
@@ -129,10 +130,17 @@
                 ],
                 "experienceTitle": "Experience",
                 "experience": [
+                                        {
+                        "role": "Associate Product Engineer",
+                        "company": "Temenos",
+                        "years": "June 2026 – Present",
+                        "link": "https://www.temenos.com/",
+                        "image": "assets/images/meta/temenos-logo.svg"
+                    },
                     {
                         "role": "Associate Product Engineer Intern",
                         "company": "Temenos",
-                        "years": "Oct 2025–Present",
+                        "years": "Oct 2025 – June 2026",
                         "link": "https://www.temenos.com/",
                         "image": "assets/images/meta/temenos-logo.svg"
                     }

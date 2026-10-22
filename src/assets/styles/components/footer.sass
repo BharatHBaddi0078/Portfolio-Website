@@ -1,3 +1,5 @@
+@use "../default/variables" as vars
+
 .footer 
     max-width: inherit
     width: 100%
@@ -22,12 +24,88 @@
     &__description
         margin-top: 16px
 
+    &__github-button
+        position: relative
+        overflow: visible
+        display: inline-flex
+        align-items: center
+        gap: 8px
+        padding: 8px 12px
+        border: 1px solid #d1d5db
+        border-radius: 8px
+        background: #f8fafc
+        color: #111827
+        transition: transform 0.2s ease, background-color 0.2s ease
+        visibility: hidden
+
+        &[aria-busy="false"]
+            visibility: visible
+
+        &:focus-visible
+            outline: 2px solid #facc15
+            outline-offset: 3px
+
+        &:hover
+            background: #ffffff
+            color: #111827
+            transform: translateY(-1px)
+
+    &__github-logo
+        width: 16px
+        height: 16px
+
+    &__github-star
+        color: #facc15
+        font-size: 18px
+        line-height: 1
+        transform: scale(0.9)
+        transition: transform 0.3s ease
+
+        &--filled
+            color: #facc15
+            transform: scale(1)
+
+    &__github-particles
+        position: absolute
+        inset: 50% 30px auto auto
+        width: 1px
+        height: 1px
+        pointer-events: none
+
+    &__github-particle
+        position: absolute
+        width: 5px
+        height: 5px
+        border-radius: 50%
+        background: var(--particle-color)
+        opacity: 0
+        transform: rotate(var(--particle-angle)) translateY(0)
+
+    &__github-button--burst .footer__github-particle
+        animation: github-star-particle 700ms ease-out forwards
+
+    @keyframes github-star-particle
+        0%
+            opacity: 1
+            transform: rotate(var(--particle-angle)) translateY(0) scale(1)
+        100%
+            opacity: 0
+            transform: rotate(var(--particle-angle)) translateY(-24px) scale(0)
+
     &__inner
-        display: flex
-        justify-content: space-between
-        flex-wrap: wrap
+        display: grid
+        grid-template-columns: minmax(0, 1fr) 340px
         gap: 32px
         margin-bottom: 48px
+
+        @media (max-width: vars.$tabletScreen)
+            grid-template-columns: 1fr
+
+    &__github
+        align-self: end
+
+        @media (max-width: vars.$tabletScreen)
+            grid-column: 1 / -1
 
     &__list
         display: flex

@@ -8,7 +8,6 @@ export default {
     postgresql: { category: 'database' },
     mysql: { category: 'database' },
     sqlite: { category: 'database' },
-    'sql-server': { category: 'database' },
     
     // Frontend
     html: { category: 'frontend' },
