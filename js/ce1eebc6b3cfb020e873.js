@@ -33,7 +33,6 @@ __webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
     sqlite: "SQLite",
     postgresql: "PostgreSQL",
     mysql: "MySQL",
-    'sql-server': "SQL Server",
     mongo: "MongoDB",
     postgreSql: "PostgreSQL",
     html: "HTML",
@@ -186,7 +185,6 @@ __webpack_require__.dn(SkillBlock);
     postgresql: { category: 'database' },
     mysql: { category: 'database' },
     sqlite: { category: 'database' },
-    'sql-server': { category: 'database' },
     
     // Frontend
     html: { category: 'frontend' },

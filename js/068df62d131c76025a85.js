@@ -33,7 +33,6 @@ __webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
     sqlite: "SQLite",
     postgresql: "PostgreSQL",
     mysql: "MySQL",
-    'sql-server': "SQL Server",
     mongo: "MongoDB",
     postgreSql: "PostgreSQL",
     html: "HTML",
