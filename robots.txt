@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bharath-badderu.vercel.app/sitemap.xml
